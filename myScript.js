@@ -7,9 +7,17 @@ function changeImage() {
     image.src = 'https://prodimage.images-bn.com/pimages/0085391117292_p0_v2_s1200x630.jpg'; // Change to the new image path
 
 }
-function changeColor() {
-  var container = document.getElementById('colorBox');
-  var colors = ['#FF6347', '#6A5ACD', '#20B2AA', '#FFD700', '#FFA500'];
-  var randomColor = colors[Math.floor(Math.random() * colors.length)];
-  container.style.backgroundColor = randomColor;
+var audio = document.getElementById('myAudio');
+
+function playAudio() {
+  audio.play();
+}
+
+function pauseAudio() {
+  audio.pause();
+}
+
+function stopAudio() {
+  audio.pause();
+  audio.currentTime = 0;
 }
