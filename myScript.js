@@ -3,10 +3,8 @@ function myFunction() {
 }
 function changeImage() {
   var image = document.getElementById('myImage');
-  if (image.src.match('original.jpg')) {
-    image.src = 'new.jpg'; // Change to the new image path
-  } else {
-    image.src = 'original.jpg'; // Change back to the original image path
-  }
+
+    image.src = 'https://prodimage.images-bn.com/pimages/0085391117292_p0_v2_s1200x630.jpg'; // Change to the new image path
+
 }
 
