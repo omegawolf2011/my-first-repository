@@ -7,17 +7,3 @@ function changeImage() {
     image.src = 'https://prodimage.images-bn.com/pimages/0085391117292_p0_v2_s1200x630.jpg'; // Change to the new image path
 
 }
-var audio = document.getElementById('myAudio');
-
-function playAudio() {
-  audio.play();
-}
-
-function pauseAudio() {
-  audio.pause();
-}
-
-function stopAudio() {
-  audio.pause();
-  audio.currentTime = 0;
-}
