@@ -7,6 +7,3 @@ function changeImage() {
     image.src = 'https://prodimage.images-bn.com/pimages/0085391117292_p0_v2_s1200x630.jpg'; // Change to the new image path
 
 }
-function myFunction(1) {
-    document.getElementById("demo").innerHTML="About the movie The Departed";
-}
